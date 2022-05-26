@@ -1,0 +1,26 @@
+body {
+    background-color: #e8eaec;
+}
+
+.bg-banner {
+    background-image: url('./Assets/images/bannerbackground.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+}
+
+/* Banner */
+.banner-input {
+    border: none;
+    width: 300px;
+}
+
+.banner-input:focus {
+    border: none;
+    outline: none;
+}
+
+/* card shadow */
+.custom-shadow {
+    box-shadow: 4px 4px 8px rgb(189 200 213), -4px -4px 8px rgb(255 255 255);
+}
